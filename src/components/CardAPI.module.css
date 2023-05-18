@@ -1,0 +1,73 @@
+.card {
+  position: relative;
+  color: #e76161;
+  font-size: 1.6rem;
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
+  min-height: 15rem;
+  background-color: bisque;
+  box-shadow: 4px 4px #b04759, 0 0 0 18px #e76161, 0 0 0 19px bisque,
+    4px 4px 0 20px #b04759;
+}
+
+.quote {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.cardPreText {
+  cursor: pointer;
+  transition: transform 0.15s ease-in;
+}
+
+.cardPreText:hover {
+  transform: scale(1.01);
+}
+
+.preText {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.button {
+  text-align: center;
+  width: 30%;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.8rem 1.6rem;
+  font-weight: bold;
+  background-color: #e76161;
+  color: bisque;
+  font-size: 1.2rem;
+  border: none;
+  box-shadow: 4px 4px #b04759;
+}
+
+.button:hover {
+  background-color: bisque;
+  color: #e76161;
+  box-shadow: 0 0 0 1px #e76161;
+}
+
+.buttonContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  transition: transform 0.15s ease-in;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+#root {
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
